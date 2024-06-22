@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<manifest 	identifier="Declick cours base " 
+			version="1.2" 
+			xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+			xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd  http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+	</metadata>
+
+	<organizations default="Rustici Software">
+		<organization identifier="Rustici Software">
+			<title>Clique sur le bouton Entrer et demarre le parcours. Si tu le complete tu obtiendra un badge</title>
+			<item identifier="E0" identifierref="E0" isvisible="true">
+				<title>Parcours</title>
+			</item>
+			<item identifier="E1" identifierref="E1" isvisible="true">
+				<title>Exercice 1</title>
+			</item>
+			<item identifier="E2" identifierref="E2" isvisible="true">
+				<title>Exercice 2</title>
+			</item>
+			<item identifier="E3" identifierref="E3" isvisible="true">
+				<title>Exercice 4</title>
+			</item>
+			<item identifier="E4" identifierref="E4" isvisible="true">
+				<title>Bravo vous avez réussi !</title>
+			</item>
+		</organization>
+	</organizations>
+
+	<resources>
+		<resource identifier="E0" type="webcontent" adlcp:scormtype="sco" href="Declick_v4/index.html" />
+		<resource identifier="E1" type="webcontent" adlcp:scormtype="sco" href="E1/exercise.html" />
+		<resource identifier="E2" type="webcontent" adlcp:scormtype="sco" href="E2/exercise.html" />
+		<resource identifier="E3" type="webcontent" adlcp:scormtype="sco" href="E4/exercise.html" />
+		<resource identifier="E4" type="webcontent" adlcp:scormtype="sco" href="Declick_v5/index.html" />
+	</resources>
+</manifest>
